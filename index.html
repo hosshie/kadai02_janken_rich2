@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- レスポンシブ -->
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0,viewport-fit=cover">
+
+
+
+<!-- CSS紐づけ -->
+<link rel="stylesheet" href="./CSS/kadai02.css">
+<title>kadai02 janken rich</title>
+
+<!-- googleフォント →CSSで場所を指定、今回はbody -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap" rel="stylesheet">
+
+<!-- Favicon -->
+<link rel="icon" href="img/favicon.jpg">
+
+</head>
+
+<body>
+
+<header>
+    <h1>星相撲５月場所</h1>
+</header>
+
+<main>
+
+    <div id="game-area">
+
+<!-- ボタン -->
+<div class="btn-wrap">
+    <button id="set-btn">力士くじ<br>(あなた)
+    </button>
+    <button id="start-btn">いざ勝負</button>
+    <button id="reset-btn">リセット</button>
+</div>
+
+<!-- 東方 -->
+<div class="higashi-wrap">
+    <div id="eastshikoname"></div>
+    <div id="eastrikisiimg"></div>
+    <div id="eastbanzuke"></div>
+    
+</div>
+
+<!-- 西方 -->
+<div id="nishi-wrap">
+    <div id="westshikoname"></div>
+    <div id="westrikisiimg"></div>
+    <div id="westbanzuke"></div>
+    
+</div>
+
+<!-- 結果 -->
+<div id="result-wrap">
+    <div id="sirokuro"></div>
+    <div id="comment"></div>
+
+        </div>
+
+</main>
+
+<footer>
+    &copy; 星相撲５月場所
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="./JS/kadai02.js"></script>
+    
+</body>
+</html>

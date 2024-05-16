@@ -1,0 +1,210 @@
+
+
+/* googleフォントをどこに適用するかを指定 */
+body {
+    font-family: "RocknRoll One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #171717;
+    color: #ffffff;
+    position: relative;
+}
+
+main {
+    background-image: url(../img/haikeidohyou.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: cover;
+}
+
+#game-area {
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 30px 25px 0;
+    height: calc(100vh - 10px);
+    position: relative;
+}
+
+/* ボタン */
+#set-btn {
+    background-color: #13c196;
+    color: #ffffff;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+    left: 400px;
+
+    border-top: 4px solid #48ecc4;
+    border-right: 4px solid #0a5f4a;
+    border-bottom: 4px solid #0f745b;
+    border-left: 4px solid #8cf9de;
+    border-radius: 50%;
+}
+
+#set-btn:hover {
+    background-color: #11a37f;
+}
+
+#set-btn:active {
+    border-top: 4px solid #0f745b;
+    border-right: 4px solid #8cf9de;
+    border-bottom: 4px solid #48ecc4;
+    border-left: 4px solid #0a5f4a;
+}  
+
+#start-btn {
+    background-color: #c11313;
+    color: #ffffff;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+    left: 580px;
+
+    border-top: 4px solid #ec4848;
+    border-right: 4px solid #5f0a0a;
+    border-bottom: 4px solid #740f0f;
+    border-left: 4px solid #f98c8c;
+    border-radius: 50%;
+}
+
+#start-btn:hover {
+    background-color: #a31111;
+}
+
+#start-btn:active {
+    border-top: 4px solid #740f0f;
+    border-right: 4px solid #f98c8c;
+    border-bottom: 4px solid #ec4848;
+    border-left: 4px solid #5f0a0a;
+}
+
+#reset-btn {
+    background-color: #666666;
+    color: #ffffff;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+    left: 760px;
+
+    border-top: 4px solid #aaaaaa;
+    border-right: 4px solid #333333;
+    border-bottom: 4px solid #0d0a0a;
+    border-left: 4px solid #aaaaaa;
+    border-radius: 50%;
+}
+
+#reset-btn:hover {
+    background-color: #595959;
+}
+
+#reset-btn:active {
+    border-top: 4px solid #020202;
+    border-right: 4px solid #aaaaaa;
+    border-bottom: 4px solid #aaaaaa;
+    border-left: 4px solid #333333;
+}
+
+/*東方*/
+#eastshikoname{
+    font-size: 20px;
+    color: white;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    position: absolute;
+    bottom: 360px;
+    left: 400px;  
+}
+
+#eastrikisiimg img{
+    width: 150px;
+    height: auto;
+    text-align: center;
+    position: absolute;
+    bottom: 160px;
+    left: 370px; 
+}
+
+#eastbanzuke{
+    font-size: 20px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    position: absolute;
+    bottom: 45px;
+    left: 400px;   
+}
+
+/*西方*/
+#westshikoname{
+    font-size: 20px;
+    color: white;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    position: absolute;
+    bottom: 360px;
+    left: 750px;   
+}
+
+#westrikisiimg img{
+    width: 150px;
+    height: auto;
+    text-align: center;
+    position: absolute;
+    bottom: 160px;
+    left: 730px;   
+}
+
+#westbanzuke{
+    font-size: 20px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    position: absolute;
+    bottom: 45px;
+    left: 750px;   
+}
+
+#result-wrap{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    position: absolute;
+    bottom: 300px;
+    left: 580px;
+}
+
+#shirokuro img{
+    width: 50px;
+    height: auto;
+    text-align: center;
+    position: absolute;
+    bottom: 300px;
+    left: 580px;
+}
+
+/* フッター */
+footer {
+    font-size: 15px;
+    color: #ffffff;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    background-color: #000000;
+}
